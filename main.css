@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Open Sans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 1.25em;
 	color: #fff;
@@ -33,7 +33,7 @@ h3 {
 }
 
 p {
-	font-family: 'Open Sans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 1.25em;
 	line-height: 1.3em;
@@ -71,15 +71,15 @@ section p {
 }
 
 #about {
-	background-color: #da6e6e;	
+	background-color: #da6e6e;
 }
 
 #goals{
-	background-color: #3bb8c7;	
+	background-color: #3bb8c7;
 }
 
 #follow {
-	background-color: #feaa25;	
+	background-color: #feaa25;
 }
 
 .btn-1 {
@@ -87,7 +87,7 @@ section p {
 	background-color: rgba(0,0,0,0.2);
 	padding: 28px 77px;
 	text-decoration: none;
-	font-family: 'Open-sans' sans-serif;
+	font-family: 'Open-sans', sans-serif;
 	color: #333;
 	font-size: 1.4em;
 	margin-bottom: 50px;
@@ -134,17 +134,17 @@ clear: left;
 .googleplus { background-position: -270px -90px;}
 
 footer {
-	font-family: 'Open Sans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: .65em;
 	color: #fff;
 	background-color: #000;
 	text-align: center;
 	padding: 50px 0 ;
-	}
-	
+}
+
 footer h4 {
-		font-family: 'Open Sans' sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		font-size: 1.2em;
 		color: #fff;
