@@ -1,0 +1,152 @@
+section {
+	overflow: hidden;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 7.5em;
+	line-height: .90em;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+#intro h1 {
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 3em;
+	color:  rgba(0, 0, 0, 0.6);
+	line-height: 1.2em;
+	margin-top: 5px;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-family: 'Open Sans' sans-serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: 'Open Sans' sans-serif;
+	font-weight: 300;
+	font-size: 1.25em;
+	line-height: 1.3em;
+	color: #fff;
+}
+
+section p {
+	margin-bottom: 130px;
+}
+
+#about p a:link {color:#fff;}      /* unvisited link */
+#about p a:visited {color:#fff;}  /* visited link */
+#about p a:hover {color:#000;}  /* mouse over link */
+#about p a:active {color:#000;}  /* selected link */
+
+.wrapper {
+	width: 1024px;
+	margin: 50px auto;
+}
+
+.column-one {
+	float: left;
+	width: 250px;
+	margin: 0 50px 0 auto;
+}
+
+.column-two {
+	float: left;
+	width: 724px;
+	margin: 0 auto 0 0;
+}
+
+#intro {
+	background-color: #3cc479;
+}
+
+#about {
+	background-color: #da6e6e;	
+}
+
+#goals{
+	background-color: #3bb8c7;	
+}
+
+#follow {
+	background-color: #feaa25;	
+}
+
+.btn-1 {
+	display: inline-block;
+	background-color: rgba(0,0,0,0.2);
+	padding: 28px 77px;
+	text-decoration: none;
+	font-family: 'Open-sans' sans-serif;
+	color: #333;
+	font-size: 1.4em;
+	margin-bottom: 50px;
+}
+
+.btn-1:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#follow ul li {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+#follow ul li a {
+	display: inline-block;
+	width: 90px;
+	height:  90px;
+	background-image: url('images/socialmedia.png');
+	background-color: rgba(0,0,0,.1);
+}
+
+#follow ul li a:hover {
+	background-color: rgba(0,0,0,.2);
+}
+
+#follow ul {
+clear: left;
+}
+
+#follow ul:last-child li {
+	margin-bottom: 50px;
+}
+
+.rss { background-position: 0 0;}
+.facebook { background-position: -90px -90px;}
+.twitter { background-position: -90px 0;}
+.pinterest { background-position: 0 -90px;}
+.tumblr { background-position: -270px 0;}
+.spotify { background-position: -180px -90px;}
+.linkedin { background-position: -180px 0;}
+.behance { background-position: -360px -90px;}
+.email { background-position: -360px 0;}
+.googleplus { background-position: -270px -90px;}
+
+footer {
+	font-family: 'Open Sans' sans-serif;
+	font-weight: 300;
+	font-size: .65em;
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	padding: 50px 0 ;
+	}
+	
+footer h4 {
+		font-family: 'Open Sans' sans-serif;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #fff;
+		margin-bottom: 5px;
+}
