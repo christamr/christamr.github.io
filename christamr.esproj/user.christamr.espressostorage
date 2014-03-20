@@ -9,7 +9,7 @@
 		<key>ContentSize</key>
 		<string>{1235, 700}</string>
 		<key>ProjectURL</key>
-		<string>file:///Users/christamr/Documents/Christa_M_R/christamr_website_2014/christamr.esproj/</string>
+		<string>file://localhost/Users/christamr/Documents/Christa_M_R/Website/christamr.esproj/</string>
 		<key>StateType</key>
 		<string>ProjectWindow</string>
 		<key>TopLeftPoint</key>
@@ -30,49 +30,19 @@
 		<array>
 			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/christamr/Documents/Christa_M_R/christamr_website_2014/index.html</string>
+				<string>file://localhost/Users/christamr/Documents/Christa_M_R/Website/connect.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
-				<key>StateType</key>
-				<string>PreviewTab</string>
-				<key>Title</key>
-				<string>Christa M. Rensel's Work and Ventures | Graphic Design, Marketing, Creative</string>
-				<key>URL</key>
-				<string>file:///Users/christamr/Documents/Christa_M_R/christamr_website_2014/ventures.html</string>
-			</dict>
-			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/christamr/Documents/Christa_M_R/christamr_website_2014/ventures.html</string>
+				<string>file://localhost/Users/christamr/Documents/Christa_M_R/Website/index.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
 			<dict>
-				<key>StateType</key>
-				<string>PreviewTab</string>
-				<key>Title</key>
-				<string>Christa M. Rensel's Work and Ventures | Graphic Design, Marketing, Creative</string>
-				<key>URL</key>
-				<string>file:///Users/christamr/Documents/Christa_M_R/christamr_website_2014/ventures.html</string>
-			</dict>
-			<dict>
 				<key>DocumentURL</key>
-				<string>file://localhost/Users/christamr/Documents/Christa_M_R/christamr_website_2014/connect.html</string>
-				<key>StateType</key>
-				<string>DefaultTab</string>
-			</dict>
-			<dict>
-				<key>StateType</key>
-				<string>PreviewTab</string>
-				<key>Title</key>
-				<string>Connect with Christa M. Rensel | Graphic Design, Marketing, Creative</string>
-				<key>URL</key>
-				<string>file:///Users/christamr/Documents/Christa_M_R/christamr_website_2014/connect.html</string>
-			</dict>
-			<dict>
-				<key>DocumentURL</key>
-				<string>file://localhost/Users/christamr/Documents/Christa_M_R/christamr_website_2014/stylesheet.css</string>
+				<string>file://localhost/Users/christamr/Documents/Christa_M_R/Website/ventures.html</string>
 				<key>StateType</key>
 				<string>DefaultTab</string>
 			</dict>
