@@ -60,6 +60,10 @@ section p {
 	margin: 0 50px 0 auto;
 }
 
+.column-one img {
+	width: 60%;
+}
+
 .column-two {
 	float: left;
 	width: 724px;
