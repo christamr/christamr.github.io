@@ -86,13 +86,11 @@ p {
 	top: 0;
 	bottom: 0;
 	background-color: #eee;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	padding-left: 20px;
-	padding-right: 20px;
-	width: 66.8%;
-	margin-left: 33%;
 	display: inline-block;
+	position: relative;
+	left: 33%;
+	padding: 50px 10% 0;
+	width: 46%;
 }
 
 .column-two > div {
@@ -103,7 +101,6 @@ p {
 
 section {
 	max-width: 600px;
-	margin: 0 auto 0 auto;
 }
 
 
