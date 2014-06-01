@@ -13,7 +13,7 @@ h1 {
 h2 {
 	font-family: 'Droid Serif', serif;
 	font-size: 1.5em;
-	line-height: 1em;
+	line-height: 1.6em;
 	color: #00a775;
 	margin-bottom: 5px;
 }
@@ -76,6 +76,10 @@ p {
 	background-color: #eee;
 	padding: 10px;
 	border-radius: 3px;
+}
+
+.column-one img {
+	width: 55%;
 }
 
 .column-two {
