@@ -1,0 +1,409 @@
+/*page*/ 
+
+.width {
+	width: 75%;
+	max-width: 1000px;
+	padding-left: 12%;
+	padding-right: 12%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	font-size: 2.3em;
+}
+
+h2 {
+	font-family: 'Bitter', serif; 
+	font-weight: 400; 
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+h3 {
+	font-family: "Bitter", serif;
+	font-weight: 700;
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+p {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	line-height: 1.75em;
+}
+
+/*navigation*/
+
+nav {
+	background-color: #16698a;
+	height: 75px;
+}
+
+nav .condensed-text {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #faf9f8;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+nav li {
+	display: inline-block;
+	padding-left: 20px;
+}
+
+nav ul {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	margin-top: 30px
+}
+
+nav a:link {
+	font-family: 'Lato', sans-serif;
+	color: #faf9f8;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+nav a:visited {
+	font-family: 'Lato', sans-serif;
+	color: #faf9f8;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-family: 'Lato', sans-serif;
+	color: #faf9f8;
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+nav a:active {
+	font-family: 'Lato', sans-serif;
+	color: #faf9f8;
+	font-size: 1em;
+	text-decoration: underline 2px solid;
+}
+
+/*hero*/
+
+#hero {
+	background-color: #0095b7;
+	background-image: url(assets/hero.jpg);
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+.col1 {
+	width: 49%;
+	display: inline-block;
+}
+
+.col2 {
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+
+.col1 img {
+	margin: 0 20px 0 20px;
+	width: 100%;
+}
+
+.hero-text {
+	font-family: 'Bitter', serif;
+	font-size: 1.7em;
+	line-height: 37px;
+	font-weight: 400;
+	color: #faf9f8;
+	border-top: 2px dotted #faf9f8;
+	border-bottom: 2px dotted #faf9f8;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 150px 20px 20px 20px;
+}
+
+.hero-btn {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	color: #faf9f8;
+	background-color: #16698a;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px 30px 20px 30px;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	width: 40%;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#hero .hero-btn:visited {
+	text-decoration: none;
+}
+
+#hero .hero-btn:hover {
+	background: #faf9f8;
+	color: #16698a;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	-webkit-transition: background-color .7s;
+  	-moz-transition: background-color .7s;
+  	-o-transition: background-color .7s;
+  	transition: background-color .7s;
+}
+
+/*about*/ 
+
+#about {
+	border-top: 30px #dc9b28 solid;
+	background-color: #faf9f8;
+	text-align: center;
+}
+
+#about header img {
+	margin-top: -100px;
+}
+
+#about h1 {
+	color: #dc9b28;
+	border-bottom: 2px dotted #524f4f;
+	padding-bottom: 30px;
+	width: 50%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#about header {
+	padding-bottom: 75px;
+}
+
+#about h3 {
+	color: #524f4f;
+}
+
+#about p {
+	color: #524f4f;
+	padding: 30px 0 130px 0;
+}
+
+#about h2 {
+	color: #524f4f;
+	margin-top: 15px;
+}
+
+.scientists {
+	width: 24%;
+	display: inline-block;
+	padding-top: 50px;
+	padding-bottom: 130px
+}
+
+.scientists img {
+	width: 75%;
+}
+
+.artists {
+	width: 24%;
+	display: inline-block;
+}
+
+.artists img {
+	width: 75%;
+}
+
+.makers {
+	width: 24%;
+	display: inline-block;
+}
+
+.makers img {
+	width: 75%;
+}
+
+.educators {
+	width: 24%;
+	display: inline-block;
+}
+
+.educators img {
+	width: 75%;
+}
+
+/*updates*/
+
+#updates {
+	border-top: 30px #9ccd39 solid;
+	background-color: #524f4f;
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+#updates header img {
+	margin-top: -100px;
+}
+
+#updates h1 {
+	color: #faf9f8;
+	border-bottom: 2px dotted #9ccd39;
+	padding-bottom: 30px;
+	width: 50%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#updates h2 {
+	color: #faf9f8;
+	margin-top: 15px;
+	font-weight: 400;
+}
+
+.mc-field-group input {
+	width: 50%;
+	height: 30px;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	line-height: 1.75em;
+	padding: 17px;
+	display: inline-block;
+	margin-left: auto;
+	border-radius: 3px;
+}
+
+.mc-sign-up {
+	width: 100px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	font-weight: 300;
+	color: #524f4f;
+	background-color: #9ccd39;
+	text-decoration: none;
+	text-align: center;
+	padding: 23px 30px 23px 30px;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.mc-sign-up:visited {
+	text-decoration: none;
+}
+
+.mc-sign-up:hover {
+	background: #CEE07A;
+	color: #524f4f;
+	text-decoration: none;
+	-webkit-transition: background-color .7s;
+  	-moz-transition: background-color .7s;
+  	-o-transition: background-color .7s;
+  	transition: background-color .7s;
+}
+
+/*sponsors & team*/
+
+#sponsors {
+	border-top: 30px #16698a solid;
+	background-color: #faf9f8;
+	text-align: center;
+}
+
+#sponsors header img {
+	margin-top: -100px;
+}
+
+#sponsors h1 {
+	color: #16698a;
+	border-bottom: 2px dotted #524f4f;
+	padding-bottom: 30px;
+	width: 50%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#sponsors h2 {
+	color: #faf9f8;
+	margin-top: 15px;
+	font-weight: 400;
+}
+
+#sponsors li {
+	display: inline-block;
+	padding-left: 20px;
+}
+
+#sponsors ul {
+	display: inline-block;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+
+#sponsors {
+	padding-bottom: 60px;
+}
+
+#sponsors a {
+	padding-top: 20px;
+}
+
+#sponsors a:link {
+	color: #16698a;
+	text-decoration: underline;
+}
+
+#sponsors a:visited {
+	color: #16698a;
+}
+
+#sponsors a:hover {
+	color: #86C1C6;
+	-webkit-transition: background-color .7s;
+  	-moz-transition: background-color .7s;
+  	-o-transition: background-color .7s;
+  	transition: background-color .7s;
+}
+
+/*footer*/
+
+footer {
+	background-color: #222;
+	color: #faf9f8;
+	font-family: "Lato", sans-serif;
+	font-size: .6em;
+	font-weight: 300;
+	text-align: center;
+	padding: 30px 0 30px 0;
+}
+
+footer a:link {
+	color: #faf9f8;
+	text-decoration: underline;
+}
+
+footer a:visited {
+	color: #faf9f8;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	color: #DC9B28;
+	text-decoration: underline;
+}
+

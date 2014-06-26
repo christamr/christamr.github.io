@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The BIG Exchange | Orlando, Florida | Global Entrepreneurship Week</title>
+		<link rel="stylesheet" href="reset.css" type="text/css" />
+		<link rel="stylesheet" href="stylesheet.css" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+<script>
+    $(function() {
+
+        function filterPath(string) {
+            return string
+            .replace(/^\//,'')
+            .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+            .replace(/\/$/,'');
+        }
+
+        var locationPath = filterPath(location.pathname);
+        var scrollElem = scrollableElement('html', 'body');
+
+        // Any links with hash tags in them (can't do ^= because of fully qualified URL potential)
+        $('a[href*=#]').each(function() {
+
+            // Ensure it's a same-page link
+            var thisPath = filterPath(this.pathname) || locationPath;
+            if (  locationPath == thisPath
+                && (location.hostname == this.hostname || !this.hostname)
+                && this.hash.replace(/#/,'') ) {
+
+                    // Ensure target exists
+                    var $target = $(this.hash), target = this.hash;
+                    if (target) {
+
+                        // Find location of target
+                        var targetOffset = $target.offset().top;
+                        $(this).click(function(event) {
+
+                            // Prevent jump-down
+                            event.preventDefault();
+
+                            // Animate to target
+                            $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+
+                                // Set hash in URL after animation successful
+                                location.hash = target;
+
+                            });
+                        });
+                    }
+            }
+
+        });
+
+        // Use the first element that is "scrollable"  (cross-browser fix?)
+        function scrollableElement(els) {
+            for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+                var el = arguments[i],
+                $scrollElement = $(el);
+                if ($scrollElement.scrollTop()> 0) {
+                    return el;
+                } else {
+                    $scrollElement.scrollTop(1);
+                    var isScrollable = $scrollElement.scrollTop()> 0;
+                    $scrollElement.scrollTop(0);
+                    if (isScrollable) {
+                        return el;
+                    }
+                }
+            }
+            return [];
+        }
+
+    });
+    </script>
+	</head>
+
+<body>
+	<!-- <nav>
+		<div class="width">
+			<p class="condensed-text">THE BIG EXCHANGE</p>
+			<ul>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">GET UPDATES</a></li>
+				<li><a href="#">SPONSORS &amp; TEAM</a></li>
+			</ul>
+		</div>
+	</nav> -->
+	
+	<main>
+
+		<section id="hero">
+			<div class="width">
+				<div class='col1'>
+					<img src="assets/logo.png" alt="The BIG Exchange Orlando Logo">
+				</div>
+				<div class='col2'>
+					<p class="hero-text">A week-long series of events hosted across our city during Global Entrepreneurship Week</p>
+					<a class="hero-btn" href="#about">LEARN MORE &darr;</a>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<div class="width">
+				<header>
+					<img src="assets/divider-orange-arrow.png" alt="arrow">
+					<a name="about"></a><h1>About The BIG Exchange</h1>
+				</header>
+				<h3>NOVEMBER 17 &ndash; 23, 2014</h3>
+				<h3>Orlando, Florida</h3>
+				<p>Bringing together go-getters, doers, and BIG thinkers through a week of entrepreneurial empowerment. The BIG Exchange is a week's worth of events, workshops, and problem solving, celebrated over Global Entrepreneurship Week.</p>
+		<!-- 	</div>
+		</section>
+		<section id="welcome">
+			<div class="width">
+				<header>
+		<!-- 			<img src="assets/divider-green-bulb.png" alt="light bulb"> -->
+					<h1>Welcome Go-Getters</h1>
+					<h2>you're amongst friends here</h2>
+				</header>
+				<div class="scientists">
+					<img src="assets/flask-blue.png" alt="flask">
+					<h3>Scientists</h3>
+				</div>
+				<div class="artists">
+					<img src="assets/paintbrush-orange.png" alt="paintbrush">
+					<h3>Artists</h3>
+				</div>
+				<div class="makers">
+					<img src="assets/gear-green.png" alt="gear">
+					<h3>Makers</h3>
+				</div>
+				<div class="educators">
+					<img src="assets/pencil-purple.png" alt="pencil">
+					<h3>Educators</h3>
+				</div>
+			</div>
+		</section>
+		<section id="updates">
+			<div class="width">
+				<header>
+					<img src="assets/divider-green-megaphone.png" alt="notifications megaphone">
+					<h1>Get Updates</h1>
+					<h2>sign up for news and notifications</h2>
+				</header>
+				<!-- Begin MailChimp Signup Form -->
+					<div id="mc_embed_signup">
+					<form action="http://christamr.us8.list-manage1.com/subscribe/post?u=9880e4b30791f472e10e841e1&amp;id=70f268529f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						
+					<div class="mc-field-group">
+						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email address...">
+						<!-- <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"> -->
+						<a href="#" class='mc-sign-up'>Sign Up</a>
+					</div>
+						<div class="email-submit" id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    
+						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    <div style="position: absolute; left: -5000px;"><input type="text" name="b_9880e4b30791f472e10e841e1_70f268529f" tabindex="-1" value=""></div>
+					</form>
+					</div>
+
+				<!--End mc_embed_signup-->
+			</div>
+		</section>
+		<section id="sponsors">
+			<div class="width">
+				<header>
+					<img src="assets/divider-blue-ribbon.png" alt="ribbon">
+					<h1>Our Sponsors &amp; Team</h1>
+					<h2>these guys make it possible</h2>
+				</header>
+				<ul>
+					<li><img src="assets/sponsor-kaleidoscope.jpg"></li>
+					<li><img src="assets/team-shea.jpg"></li>
+					<li><img src="assets/sponsor-kaleidoscope.jpg"></li>
+					<li><img src="assets/team-shea.jpg"></li>
+					<li><img src="assets/sponsor-kaleidoscope.jpg"></li>
+					<li><img src="assets/team-shea.jpg"></li>
+					<li><img src="assets/sponsor-kaleidoscope.jpg"></li>
+					<li><img src="assets/team-shea.jpg"></li>
+					<li><img src="assets/sponsor-kaleidoscope.jpg"></li>
+					<li><img src="assets/team-shea.jpg"></li>
+					<li><img src="assets/sponsor-kaleidoscope.jpg"></li>
+					<li><img src="assets/team-shea.jpg"></li>
+					<li><img src="assets/sponsor-kaleidoscope.jpg"></li>
+					<li><img src="assets/team-shea.jpg"></li>
+				</ul>
+				<p><a href="mailto:danyashea@gmail.com">Interested in becoming a sponsor?</a></p>
+			</div>
+		</section>
+		<footer>
+			<div class="width">
+				<p>The BIG Exchange is an expansion of the annual BIG Summit</p>
+				<p>This website was made with love by <a href="http://kaleidoscopeit.com/">Kaleidoscope Media</a></p>
+			</div>
+		</footer>
+	</main>
+	<script>
+		$(function(){
+			$('.mc-sign-up').on('click', function(evt){
+				evt.preventDefault();
+				$(evt.currentTarget).closest('form').submit()
+			});
+		});
+	</script>
+</body>
