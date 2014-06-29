@@ -100,6 +100,7 @@ nav a:active {
 	background-repeat: no-repeat;
 	padding-top: 50px;
 	padding-bottom: 80px;
+	text-align: center;
 }
 
 .col1 {
@@ -159,10 +160,10 @@ nav a:active {
 	font-family: 'Lato', sans-serif;
 	font-size: 1em;
 	font-weight: 700;
-	-webkit-transition: background-color .7s;
-  	-moz-transition: background-color .7s;
-  	-o-transition: background-color .7s;
-  	transition: background-color .7s;
+	-webkit-transition: background-color .5s;
+  	-moz-transition: background-color .5s;
+  	-o-transition: background-color .5s;
+  	transition: background-color .5s;
 }
 
 /*about*/ 
@@ -179,8 +180,6 @@ nav a:active {
 
 #about h1 {
 	color: #dc9b28;
-	border-bottom: 2px dotted #524f4f;
-	padding-bottom: 30px;
 	width: 50%;
 	text-align: center;
 	margin-right: auto;
@@ -203,6 +202,8 @@ nav a:active {
 #about h2 {
 	color: #524f4f;
 	margin-top: 15px;
+	border-bottom: 2px dotted #524f4f;
+	padding-bottom: 15px;
 }
 
 .scientists {
@@ -258,8 +259,6 @@ nav a:active {
 
 #updates h1 {
 	color: #faf9f8;
-	border-bottom: 2px dotted #9ccd39;
-	padding-bottom: 30px;
 	width: 50%;
 	text-align: center;
 	margin-right: auto;
@@ -270,6 +269,8 @@ nav a:active {
 	color: #faf9f8;
 	margin-top: 15px;
 	font-weight: 400;
+	border-bottom: 2px dotted #9ccd39;
+	padding-bottom: 15px;
 }
 
 .mc-field-group input {
@@ -307,13 +308,13 @@ nav a:active {
 }
 
 .mc-sign-up:hover {
-	background: #CEE07A;
-	color: #524f4f;
+	background: #222;
+	color: #faf9f8;
 	text-decoration: none;
-	-webkit-transition: background-color .7s;
-  	-moz-transition: background-color .7s;
-  	-o-transition: background-color .7s;
-  	transition: background-color .7s;
+	-webkit-transition: background-color .5s;
+  	-moz-transition: background-color .5s;
+  	-o-transition: background-color .5s;
+  	transition: background-color .5s;
 }
 
 /*sponsors & team*/
@@ -330,8 +331,6 @@ nav a:active {
 
 #sponsors h1 {
 	color: #16698a;
-	border-bottom: 2px dotted #524f4f;
-	padding-bottom: 30px;
 	width: 50%;
 	text-align: center;
 	margin-right: auto;
@@ -339,9 +338,11 @@ nav a:active {
 }
 
 #sponsors h2 {
-	color: #faf9f8;
+	color: #524f4f;
 	margin-top: 15px;
 	font-weight: 400;
+	border-bottom: 2px dotted #524f4f;
+	padding-bottom: 15px;
 }
 
 #sponsors li {
@@ -378,6 +379,11 @@ nav a:active {
   	-moz-transition: background-color .7s;
   	-o-transition: background-color .7s;
   	transition: background-color .7s;
+}
+
+#sponsors span {
+	font-size: .8em;
+	font-style: italic;
 }
 
 /*footer*/
