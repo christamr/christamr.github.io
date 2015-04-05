@@ -1,0 +1,79 @@
+body {
+	background-color: #eee;
+}
+
+h1 {
+	font-family: 'Droid Serif', serif;
+	font-size: 2em;
+	line-height: 1.5em;
+	color: #545454;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-family: 'Droid Serif', serif;
+	font-size: 1.5em;
+	line-height: 1.6em;
+	color: #00a775;
+	margin-bottom: 5px;
+}
+
+p {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1.25em;
+	line-height: 1.75em;
+	color: #7a7a7a;
+	margin-bottom: 15px;
+}
+
+.width {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	background-image: url('images/background.png');
+	height: 125px;
+	border-bottom: 2px solid #007F79;
+	position: absolute;
+}
+
+nav ul {
+	border: 2px solid #eee;
+	text-align: center;
+	vertical-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: 20px;
+	text-decoration: none;
+	font-family: 'Droid Serif', serif;
+	font-size: 1.1em;
+	color: #eee;
+}
+
+nav ul a:link {
+	text-decoration: none;
+	color: #eee;
+}
+
+nav ul a:visited {
+	text-decoration: none;
+}
+
+nav ul a:hover {
+	border-bottom: 2px solid #eee;
+}
+
+nav ul a:active {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #eee;
+}
+
+#about {
+	background-image: url('images/header-background.jpg');
+	height: 600px;
+}
+
