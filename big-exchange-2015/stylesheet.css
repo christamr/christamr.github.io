@@ -51,7 +51,7 @@ nav {
 
 nav .nav-about:link {
 	background-color: #1A4B6C;
-    width: 47%;
+    width: 44%;
     height: 48px;
     float: left;
     display: inline-block;
@@ -79,7 +79,7 @@ nav .nav-about:hover {
 }
 
 nav .nav-center {
-	width: 85px;
+	width: 10%;
 	height: 75px;
 	background-color: #1A4B6C;
 	display: inline-block;
@@ -100,7 +100,7 @@ nav .nav-center:hover {
 
 nav .nav-events:link {
 	background-color: #1A4B6C;
-    width: 47%;
+    width: 44%;
     height: 48px;
     float: right;
     display: inline-block;
@@ -190,12 +190,12 @@ header a:hover {
 
 .col-half2 {
 	width: 40%;
+	height: 575px;
 	display: inline-block;
 	float: right;
-}
-
-.col-half2 img {
-	width: 100%;
+	background-image: url('assets/big-2014-block.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #about h1 {
@@ -254,6 +254,10 @@ header a:hover {
 .col1 {
 	width: 20%;
 	display: inline-block;
+}
+
+.col1 img {
+	width: 80%;
 }
 
 .col2 {
@@ -410,4 +414,93 @@ header a:hover {
 
 .website-credit a:hover {
 	color: #DC9B2B;
+}
+
+@media only screen and (max-width: 945px) {
+	
+	header img {
+		width: 70%;
+	}
+
+	.outline {
+		padding: 50px 0 50px 0;
+	}
+
+	#about {
+		height: 425px;
+	}
+
+	#about h1 {
+		width: 50%;
+	}
+
+	.col-half1 {
+		width: 90%;
+	}
+
+	.col-half2 {
+		display: none;
+	}
+
+	.width {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+
+	#about {
+		height: 475px;
+	}
+
+	.col1 {
+		display: none;
+	}
+
+	.col2 {
+		width: 90%;
+	}
+
+	.event-cta {
+		width: 90%;
+	}
+
+	.partners {
+		height: 260px;
+	}
+
+	.partners li {
+		display: block;
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width: 625px) {
+
+	nav .nav-center {
+		display: none;
+	}
+
+	.outline {
+		margin: 0px;
+		padding: 0px;
+		border: none;
+	}
+
+	#about {
+		height: auto;
+	}
+
+	#about h1 {
+		width: 90%;
+	}
+
+	#events h1 {
+		width: 90%;
+	}
+
+	.footer-main {
+		height: auto;
+	}
+
 }
